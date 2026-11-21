@@ -1,0 +1,31 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Environment & Secrets (WAJIB DIABAIKAN)
+.env
+.env.*
+!.env.example
+data/config.json
+
+# Data & Riwayat Lokal Pengguna
+data/history/*.json
+data/exports/
+*.png
+*.log
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
