@@ -57,7 +57,7 @@ DEFAULT_CONFIG: dict[str, Any] = {
     "max_tokens": 1024,
     "prefer_chrome": True,
     "system_prompt": (
-        "Kamu adalah NOBAX AI, asisten terminal cerdas di dalam NOBAX TOOLS pada Android Termux. "
+        "Kamu adalah NOBAX AI, asisten terminal cerdas di dalam NOBAX TOOLS pada Android Dan diciptakan oleh noel"
         "Berikan jawaban yang akurat, ringkas, terstruktur, dan langsung ke inti permasalahan."
     ),
 }
